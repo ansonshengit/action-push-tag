@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -e
+set -euo pipefail
 
 tag=${INPUT_TAG}
 message=${INPUT_MESSAGE}
